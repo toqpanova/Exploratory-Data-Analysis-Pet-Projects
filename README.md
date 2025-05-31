@@ -1,23 +1,41 @@
-# Electric Vehicle Population Data Analysis
+# Exploratory Data Analysis Pet Projects
 
-This repository contains a data analysis project using the "Electric Vehicle Population Data" dataset.
+A collection of three Jupyter notebooks illustrating core data analysis skills with Python and Pandas.
 
-### Dataset  
-The data was imported from a CSV file downloaded from [Google Drive](https://drive.google.com/file/d/172oRlGRIHck8CcuOHmLszw63VsfvigFg/view?usp=drive_link).
+---
 
-### Main Steps  
-- Loaded data into a Pandas DataFrame.  
-- Explored data structure using `.info()`, `.head()`, `.tail()`, and `.describe()`.  
-- Identified columns with missing values and cleaned data by filling or dropping.  
-- Selected specific rows and columns for closer inspection.  
-- Analyzed statistical summary to identify that the 'Base MSRP' column has a 75th percentile value of 0.  
-- Calculated correlation between 'Base MSRP' and 'Electric Range' and interpreted the result (low correlation of 0.11 means weak linear relationship).  
-- Sorted data by 'Model Year' in ascending order.  
-- Created a new column 'Electric Range Mapped' by categorizing 'Electric Range' into 'Low', 'Medium', and 'High'.  
-- Exported cleaned and processed data to a new CSV file.
+## 📁 Repository Contents
 
-### Tools and Libraries  
-- Python  
-- Pandas  
+- **01_ev_population_analysis.ipynb**  
+  • Data cleaning & imputation (missing values, filling, dropping)  
+  • Basic EDA (info, head, describe)  
+  • Correlation analysis & feature categorization
 
-This project helped me practice data loading, exploration, cleaning, basic statistics, correlation analysis, data transformation, and export — essential skills for data science workflows.
+- **02_github_merge_classification.ipynb**  
+  • Data sorting & filtering (stars, issues)  
+  • Mapping & value_counts (language → role)  
+  • DataFrame merging and concatenation (concat, merge)  
+  • Conditional classification with `.apply()`
+
+- **03_ds_salary_analysis.ipynb**  
+  • Group-by & aggregation (mean salary by experience, company size)  
+  • Visualizations (bar charts with Matplotlib/Seaborn)  
+  • Trend analysis (salary growth % over years)
+
+---
+
+## 🔧 Key Skills Demonstrated
+
+- **Data Wrangling**: reading CSVs, handling missing values, sorting, filtering  
+- **Pandas Proficiency**: `groupby`, `agg`, `merge`, `concat`, `map`, `apply`  
+- **Feature Engineering**: creating new columns via functions/logic  
+- **Statistical Analysis**: basic summary statistics, correlation coefficients  
+- **Visualization**: plotting bar charts and histograms to reveal patterns  
+
+---
+
+## 🛠 Libraries & Tools
+
+- **Language**: Python 3.x  
+- **Libraries**: pandas, numpy, matplotlib, seaborn  
+- **Environment**: Jupyter Notebook (Google Colab / local)
