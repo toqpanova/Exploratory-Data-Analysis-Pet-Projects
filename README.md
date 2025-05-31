@@ -1,6 +1,6 @@
 # Exploratory Data Analysis Pet Projects
 
-A collection of three Jupyter notebooks illustrating core data analysis skills with Python and Pandas.
+A collection of three Jupyter notebooks illustrating core data analysis and visualization skills with Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn.
 
 ---
 
